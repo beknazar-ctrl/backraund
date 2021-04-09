@@ -76,26 +76,18 @@
 
         <TextView
             android:id="@+id/time1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             android:text="8:00AM"
-            android:textSize="30dp"
             android:layout_marginStart="30dp"
-            android:layout_marginBottom="30dp"
-            android:textColor="@color/incont"/>
+            style="@style/in_image" />
         <TextView
             android:id="@+id/time2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/in_image"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="30dp"
             android:layout_marginEnd="30dp"
-            android:text="11:17AM"
-            android:textSize="30dp"
-            android:textColor="@color/incont"/>
+            android:text="11:17AM" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -114,24 +106,18 @@
             android:textColor="@color/incont"/>
         <TextView
             android:id="@+id/jfk"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/jfk_sea"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="30dp"
-            android:text="JFK"
-            android:textSize="50dp"
-            android:textColor="@color/incont"/>
+            android:text="JFK" />
         <TextView
             android:id="@+id/sea"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="30dp"
             android:text="SEA"
-            android:textSize="50dp"
-            android:textColor="@color/incont"/>
+            android:layout_marginEnd="30dp"
+            style="@style/jfk_sea" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -165,14 +151,11 @@
         android:layout_marginStart="30dp"/>
     <TextView
         android:id="@+id/time3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/begins"
         android:layout_marginStart="30dp"
-        android:textColor="@color/black"
         android:text="7:30AM"
-        android:textSize="30dp"/>
+        style="@style/out_image" />
     <TextView
         android:id="@+id/gate"
         android:layout_width="wrap_content"
@@ -184,14 +167,11 @@
         android:text="GATE"/>
     <TextView
         android:id="@+id/d4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/out_image"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/gate"
         android:layout_marginStart="30dp"
-        android:text="D4"
-        android:textSize="30dp"
-        android:textColor="@color/black"/>
+        android:text="D4"/>
     <TextView
         android:id="@+id/seat"
         android:layout_width="wrap_content"
@@ -203,14 +183,11 @@
         android:layout_marginTop="10dp"/>
     <TextView
         android:id="@+id/c3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/out_image"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/seat"
         android:layout_marginStart="30dp"
-        android:textColor="@color/black"
-        android:text="3C"
-        android:textSize="30dp"/>
+        android:text="3C" />
     <TextView
         android:id="@+id/flight"
         android:layout_width="wrap_content"
@@ -222,14 +199,11 @@
         android:layout_marginTop="10dp"/>
     <TextView
         android:id="@+id/d2218"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/out_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/flight"
         android:layout_marginEnd="60dp"
-        android:text="D2218"
-        android:textSize="30dp"
-        android:textColor="@color/black"/>
+        android:text="D2218"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="150dp"
